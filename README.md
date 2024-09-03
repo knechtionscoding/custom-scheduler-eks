@@ -75,11 +75,11 @@ kubectl apply -f deploy/manifests/custom-scheduler/amazon-eks-1.29-custom-schedu
 
 #### Helm
 
-**Available Values**
+##### Available Values
 
 Please refer to the [values](https://github.com/aws-samples/custom-scheduler-eks/blob/main/deploy/charts/custom-scheduler-eks/values.yaml) for more info.
 
-Deploy with Helm
+##### Deploy with Helm
 
 ```shell
 cd custom-scheduler-eks/deploy
