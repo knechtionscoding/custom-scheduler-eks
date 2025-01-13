@@ -34,3 +34,6 @@ data:
     leaderElection:
       leaderElect: false
     {{- end }}
+    clientConnection:
+      burst: {{ .Values.clientConnection.burst }}
+      qps: {{ .Values.clientConnection.qps }}

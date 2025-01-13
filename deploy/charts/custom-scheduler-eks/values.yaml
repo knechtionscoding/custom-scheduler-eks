@@ -105,6 +105,10 @@ plugins:
       - name: NodeResourcesFit
         weight: 1
 
+clientConnection:
+  burst: 200
+  qps: 100
+
 affinity:
   nodeAffinity:
     requiredDuringSchedulingIgnoredDuringExecution:
