@@ -83,7 +83,7 @@ Please refer to the [values](https://github.com/aws-samples/custom-scheduler-eks
 
 ```shell
 cd custom-scheduler-eks/deploy
-helm install custom-eks-scheduler charts/custom-scheduler-eks --set eksVersion=1.29 --set schedulerName=second-k8s-scheduler --set nameSpace=kube-system
+helm install custom-eks-scheduler charts/custom-scheduler-eks --set eksVersion=1.29 --set schedulerName=second-k8s-scheduler -n kube-system
 ```
 
 
