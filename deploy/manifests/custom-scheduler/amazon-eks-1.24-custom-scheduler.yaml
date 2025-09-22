@@ -267,8 +267,6 @@ spec:
         tier: control-plane
         version: second
     spec:
-      securityContext:
-        runAsNonRoot: true
       affinity:
         nodeAffinity:
           requiredDuringSchedulingIgnoredDuringExecution:
@@ -314,7 +312,6 @@ spec:
         securityContext:
           readOnlyRootFilesystem: true
           allowPrivilegeEscalation: false
-          runAsNonRoot: true
           privileged: false
           capabilities:
             drop:
