@@ -9,7 +9,7 @@ spec:
   {{- if .Values.leaderElection.enabled }}
   replicas: {{ .Values.replicaCount }}
   {{ else }}
-  replicas: 1
+  replicas: 2
   {{- end }}
   selector:
     matchLabels:
