@@ -30,7 +30,8 @@ jobs:
 
       - name: Release charts
         uses: helm/chart-releaser-action@v1.6.0
+        with:
+          charts_dir: deploy/charts
+          skip_existing: true
         env:
           CR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CR_CHARTS_DIR: deploy/charts
-          CR_SKIP_EXISTING: true
