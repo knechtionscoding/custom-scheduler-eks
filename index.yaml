@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  custom-scheduler-eks:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-11-19T15:51:14.666799877Z"
+    description: A Helm chart for Kubernetes
+    digest: e12f493bce5aa3d6936bac2b9760f0302d49efa6868c96b1adb44285bea9ccb6
+    name: custom-scheduler-eks
+    type: application
+    urls:
+    - https://github.com/knechtionscoding/custom-scheduler-eks/releases/download/custom-scheduler-eks-0.1.1/custom-scheduler-eks-0.1.1.tgz
+    version: 0.1.1
+generated: "2025-11-19T15:51:14.666806299Z"
